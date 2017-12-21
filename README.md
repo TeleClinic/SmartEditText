@@ -30,19 +30,24 @@ To use:
 
 Attributes:
 
-setLabel string 
-setTextColor reference 
-setMandatory boolean 
-setMandatoryErrorMsg string 
-setRegexType enum:
-    EMAIL_VALIDATION  
-    MEDIUM_PASSWORD_VALIDATION  
-    COMPLEX_PASSWORD_VALIDATION 
-    PHONE_NUMBER_VALIDATION  
-    NAME_VALIDATION
-setRegexString string 
-setRegexErrorMsg string 
-setPasswordField boolean 
+setLabel --> Change the label for the EditTextLayout
+
+setTextColor --> Change the text color, for more customizations you can edit the theme style in your styles file!
+
+setMandatory --> Enables validating if the field is filled or not
+
+setMandatoryErrorMsg --> If the field is mandatory and it was not filled, after using .check(), the error message will be displayed below
+
+setRegexType --> Pre defined validatons
+    EMAIL_VALIDATION: Default android regex
+    MEDIUM_PASSWORD_VALIDATION:  8+ letters with 2 out of (a-z, A-Z, digit, sign)
+    COMPLEX_PASSWORD_VALIDATION: 8+ letters with all 4 (a-z, A-Z, digit, sign)
+    PHONE_NUMBER_VALIDATION: Default android regex
+    NAME_VALIDATION: 2 letters+
+
+setRegexString string --> if you want another fancier regex, just enter it here
+setRegexErrorMsg string --> Error message text for when the field is not valid according to the regex
+setPasswordField --> hides the letters and shows the eye sign to show/hide password 
 
 
 Examples:
@@ -72,7 +77,7 @@ Examples:
         android:layout_height="wrap_content"
         app:setLabel="Age"
         app:setMandatoryErrorMsg="Mandatory field"
-        app:setRegexErrorMsg="Weak password"
+        app:setRegexErrorMsg="Is that really your age :D?"
         app:setRegexString=".*\\d.*" />
 
 

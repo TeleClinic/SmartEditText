@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.teleclinic.kabdo.smartui.MainActivity">
+
+    <com.teleclinic.kabdo.smartmaterialedittext.CustomViews.SmartEditText
+        android:id="@+id/emailSmartEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:setLabel="Email"
+        app:setMandatoryErrorMsg="Mandatory field"
+        app:setRegexErrorMsg="Wrong email format"
+        app:setRegexType="EMAIL_VALIDATION" />
+
+    <com.teleclinic.kabdo.smartmaterialedittext.CustomViews.SmartEditText
+        android:id="@+id/passwordSmartEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:setLabel="Password"
+        app:setMandatoryErrorMsg="Mandatory field"
+        app:setPasswordField="true"
+        app:setRegexErrorMsg="Weak password"
+        app:setRegexType="MEDIUM_PASSWORD_VALIDATION" />
+
+    <com.teleclinic.kabdo.smartmaterialedittext.CustomViews.SmartEditText
+        android:id="@+id/ageSmartEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:setLabel="Age"
+        app:setMandatoryErrorMsg="Mandatory field"
+        app:setPasswordField="true"
+        app:setRegexErrorMsg="Weak password"
+        app:setRegexString=".*\\d.*" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="check" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SmartTextInputLayout">
+        <attr name="helperText" format="string"/>
+        <attr name="helperTextColor" format="color|reference"/>
+    </declare-styleable>
+</resources>

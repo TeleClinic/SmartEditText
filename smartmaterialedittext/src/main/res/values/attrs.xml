@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SmartEditText">
+        <attr name="setLabel" format="string" />
+        <attr name="setTextColor" format="reference" />
+        <attr name="setMandatory" format="boolean" />
+        <attr name="setMandatoryErrorMsg" format="string" />
+        <attr name="setRegexType" format="enum">
+            <enum name="EMAIL_VALIDATION" value="0" />
+            <enum name="MEDIUM_PASSWORD_VALIDATION" value="1" />
+            <enum name="COMPLEX_PASSWORD_VALIDATION" value="2" />
+            <enum name="PHONE_NUMBER_VALIDATION" value="3" />
+            <enum name="NAME_VALIDATION" value="4" />
+        </attr>
+        <attr name="setRegexString" format="string" />
+        <attr name="setRegexErrorMsg" format="string" />
+        <attr name="setValidateOnKey" format="boolean" />
+        <attr name="setPasswordField" format="boolean" />
+    </declare-styleable>
+</resources>

@@ -26,11 +26,14 @@ Step 2. Add the dependency
 
 # TO USE
 
-
-<com.teleclinic.kabdo.smartmaterialedittext.CustomViews.SmartEditText
+    <com.teleclinic.kabdo.smartmaterialedittext.CustomViews.SmartEditText
         android:id="@+id/emailSmartEditText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        app:setLabel="Email"
+        app:setMandatoryErrorMsg="Mandatory field"
+        app:setRegexErrorMsg="Wrong email format"
+        app:setRegexType="EMAIL_VALIDATION" />
 
 emailSmartEditText.check()
 

@@ -3,7 +3,8 @@ A Smart Material Design EditText for Android that includes validations for most 
 
 To get a Git project into your build:
 
-![](screenshot.png | width=100)
+<img src="screenshot.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+
 
 Step 1. Add the JitPack repository to your build file
 

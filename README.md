@@ -3,6 +3,8 @@ A Smart Material Design EditText for Android that includes validations for most 
 
 To get a Git project into your build:
 
+![](screenshot.png)
+
 Step 1. Add the JitPack repository to your build file
 
 Add it in your root build.gradle at the end of repositories:
@@ -21,14 +23,14 @@ Step 2. Add the dependency
 	}
 
 
-To use:
+# TO USE
 
 <com.teleclinic.kabdo.smartmaterialedittext.CustomViews.SmartEditText
         android:id="@+id/emailSmartEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-Attributes:
+# ATTRIBUTES
 
 setLabel --> Change the label for the EditTextLayout
 
@@ -51,7 +53,8 @@ setRegexErrorMsg string --> Error message text for when the field is not valid a
 setPasswordField --> hides the letters and shows the eye sign to show/hide password 
 
 
-Examples:
+# EXAMPLES 
+
 
     <com.teleclinic.kabdo.smartmaterialedittext.CustomViews.SmartEditText
         android:id="@+id/emailSmartEditText"

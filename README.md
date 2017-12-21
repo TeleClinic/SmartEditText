@@ -3,7 +3,7 @@ A Smart Material Design EditText for Android that includes validations for most 
 
 To get a Git project into your build:
 
-![](screenshot.png)
+![](screenshot.png | height=100)
 
 Step 1. Add the JitPack repository to your build file
 
@@ -25,12 +25,17 @@ Step 2. Add the dependency
 
 # TO USE
 
+
 <com.teleclinic.kabdo.smartmaterialedittext.CustomViews.SmartEditText
         android:id="@+id/emailSmartEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+emailSmartEditText.check()
+
+
 # ATTRIBUTES
+
 
 setLabel --> Change the label for the EditTextLayout
 

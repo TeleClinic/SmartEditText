@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SmartCheckBox">
+        <attr name="mandatory" format="boolean" />
+        <attr name="scbColor" format="reference" />
+        <attr name="scbErrorColor" format="reference" />
+        <attr name="scbTextColor" format="reference" />
+    </declare-styleable>
+</resources>

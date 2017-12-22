@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.teleclinic.kabdo.smartform.SmartFormLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/form"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -37,10 +38,26 @@
         app:setRegexErrorMsg="Weak password"
         app:setRegexString=".*\\d.*" />
 
+    <com.teleclinic.kabdo.smartform.SmartCheckBox
+        android:id="@+id/termsCheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terms and conditions"
+        app:scbColor="@color/gold"
+        app:scbErrorColor="@color/red"
+        app:scbTextColor="@color/orangeDark" />
+
+    <com.teleclinic.kabdo.smartform.SmartCheckBox
+        android:id="@+id/newsCheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recieve news letter"
+        app:mandatory="false" />
+
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="check" />
 
-</LinearLayout>
+</com.teleclinic.kabdo.smartform.SmartFormLinearLayout>

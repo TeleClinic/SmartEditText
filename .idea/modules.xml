@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SmartUi.iml" filepath="$PROJECT_DIR$/SmartUi.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smartform/smartform.iml" filepath="$PROJECT_DIR$/smartform/smartform.iml" />
       <module fileurl="file://$PROJECT_DIR$/smartmaterialedittext/smartmaterialedittext.iml" filepath="$PROJECT_DIR$/smartmaterialedittext/smartmaterialedittext.iml" />
     </modules>
   </component>

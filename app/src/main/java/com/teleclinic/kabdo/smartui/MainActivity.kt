@@ -12,9 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         button.setOnClickListener {
-            Toast.makeText(this, emailSmartEditText.check().toString(), Toast.LENGTH_LONG).show()
-            Toast.makeText(this, passwordSmartEditText.check().toString(), Toast.LENGTH_LONG).show()
-            Toast.makeText(this, ageSmartEditText.check().toString(), Toast.LENGTH_LONG).show()
+            Toast.makeText(this, form.check().toString(), Toast.LENGTH_LONG).show()
         }
     }
 }

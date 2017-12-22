@@ -48,7 +48,6 @@ class SmartEditText : FrameLayout {
         this.styleAttr = defStyleAttr
         addView(view)
         editText.textWatcher { afterTextChanged { smartTextInputLayout.isErrorEnabled = false } }
-
         readAttributes()
     }
 
